@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="7" name="Testing different request on video game application" skipped="0" tests="7" time="49.05" timestamp="2021-08-06T14:53:07.520+01:00[Europe/London]"><testcase name="Check if the video game application can be accessed by users"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.videogameapp.cucumber.steps.MyStepdefs.userSendsAGetRequestToListEndpointTheyMustGetBackAValidStatusCode(MyStepdefs.java:27)&#13;
+✽.When User sends a get request to list endpoint, they must get back a valid status code 200(src/test/java/resources/features/videoGame.feature:4)&#13;
+</system-err></testcase><testcase name="Create new video game and verify video game added"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.videogameapp.cucumber.steps.MyStepdefs.iVerifyThatTheVideoGameWithNameIsCreated(MyStepdefs.java:53)&#13;
+✽.Then I verify that the video game with name "PS4" is created(src/test/java/resources/features/videoGame.feature:15)&#13;
+</system-err></testcase><testcase name="Update new video game and verify video game updated"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.videogameapp.cucumber.steps.MyStepdefs.iVerifyThatTheVideoGameWithNameIsUpdated(MyStepdefs.java:69)&#13;
+✽.Then I verify that the video game with name "PS4" is updated(src/test/java/resources/features/videoGame.feature:24)&#13;
+</system-err></testcase><testcase name="Delete video game and verify video game deleted"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;403&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.videogameapp.cucumber.steps.MyStepdefs.iVerifyThatTheVideoGameWithIdIsDeleted(MyStepdefs.java:83)&#13;
+✽.Then I verify that the video game with id"7" is deleted(src/test/java/resources/features/videoGame.feature:32)&#13;
+</system-err></testcase></testsuite>
